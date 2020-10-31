@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Express Chat</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/css/chat.css">
+</head>
+<body>
+
+	<header>
+		<section id="identification">
+			<h3>{{username}}</h3>
+		</section>
+		<section id="app-info">
+			Teste das informações do bate-papo
+		</section>
+	</header>
+
+
+	<main>
+		<aside class="online-users">
+			<b>Lista de usuários conectados:</b>
+			<ul id="user-list"></ul>
+		</aside>
+
+		<iframe id="message-area" src="/messages" width="70%" heigth="85%" frameborder="0"></iframe>
+	</main>
+
+
+	<script type="text/javascript" src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+	<script src="/javascript/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+#container{
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+#warning-box{
+	min-width: 150px;
+	min-height: 200px;
+
+	width: 60%;
+	height: 70%;
+	background-color: #eee;
+	color: #0e0e0e;
+
+	border-radius: 1rem;
+}
