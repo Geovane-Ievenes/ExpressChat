@@ -10,12 +10,14 @@
 	<div id="container">
 	
 		<div id="warning-box">
-			<section class="name">
-				<h3>Escolha o nome pelo qual deseja ser chamado</h3>
-				<input type="text" name="name" id="name">
-			</section>
-				
-			<button onclick="login()">Ir para batepapo</button>
+			<form action="/chat" method="POST">
+				<label id="name">
+					<h3>Escolha o nome pelo qual deseja ser chamado</h3>
+					<input type="text" name="username" id="name">
+				</label>	
+
+				<button type="subit">Ir para batepapo</button>
+			</form>
 		</div>
 
 	</div>
